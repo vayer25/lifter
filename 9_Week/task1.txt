@@ -1,0 +1,12 @@
+Crea un repositorio público en GitHub para usar durante el resto del programa.
+Crea una rama llamada past-exercises.
+Sube todos los ejercicios desde la semana 1 hasta la 8 en carpetas distintas.
+Revisa tu perfil de estudiante para descargar los archivos o códigos.
+semana_1/ejercicio_1.txt
+(etc)
+semana_5/ejercicio_1.py
+semana_5/ejercicio_2.txt
+semana_5/ejercicio_3.txt
+(etc)
+
+Crea un pull request para hacer merge de esa rama a la principal.
