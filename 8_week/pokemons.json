@@ -1,18 +1,18 @@
 [
     {
         "name": {
-            "english": "Eevee"
+            "english": "Gardevoir"
         },
         "type": [
-            "normal"
+            "Psychic / Fairy"
         ],
         "base": {
-            "HP": 55,
-            "Attack": 55,
-            "Defense": 50,
-            "Sp. Attack": 45,
-            "Sp. Defense": 50,
-            "Speed": 55
+            "HP": 68,
+            "Attack": 65,
+            "Defense": 65,
+            "Sp. Attack": 125,
+            "Sp. Defense": 115,
+            "Speed": 80
         }
     }
 ]

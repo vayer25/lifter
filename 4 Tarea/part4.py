@@ -9,5 +9,5 @@ elif number_two >= number_one and number_two >= number_three:
     greatest = number_two
 else:
     greatest = number_three
-    # Mostrar el resultado
+    
 print(f'This is the greatest number: {greatest}')

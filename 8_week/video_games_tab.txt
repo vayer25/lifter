@@ -1,4 +1,3 @@
 Name	Genre	Developer	ESRB Classification
-The Legebd of Zelda	Action adventure	Nintendo	E10+
-Elden Ring	Action RPG	FromSoftware	M
-Devil May Cry 5 	Hack and slash	campcom	M
+The legend of Zelda adventure	Adventure	Nintendo	E10+
+Elden Ring 	Action	FromSoftware	M

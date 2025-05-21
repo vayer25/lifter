@@ -10,7 +10,7 @@ promedio_de_notas_desaprobadas = 0
 promedio_de_notas_total = 0
 
 while contador_de_nota <= total_de_notas:
-    # Mostrar mensaje e ingresar la nota
+    
     nota_actual = int(input(f"Ingrese la nota número {contador_de_nota}: "))
  
 

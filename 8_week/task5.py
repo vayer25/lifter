@@ -65,10 +65,10 @@ def save_pokemon_info(file_path, pokemon_data):
         json.dump(pokemon_data, file, indent=4)
 
 def add_new_pokemon(file_path):
-    # Load existing Pokémon data
+
     pokemon_data = pokemon_data_information(file_path)
 
-    # Ask user for new Pokémon information
+
     name = input("Please enter the name of your Pokémon: ")
     type_ = input("What is the type of the Pokémon? ")
     hp = int(input("Please enter the HP: "))
@@ -79,7 +79,7 @@ def add_new_pokemon(file_path):
     speed = int(input("What is the speed of your Pokémon? "))
 
 
-    # Create a new Pokémon dictionary
+
     new_pokemon = {
         "name": {
             "english": name
@@ -95,16 +95,16 @@ def add_new_pokemon(file_path):
         }
     }
 
-    # Add the new Pokémon to the existing data
+
     pokemon_data.append(new_pokemon)
 
-    # Save the updated data back to the file
+
     save_pokemon_info(file_path, pokemon_data)
 
-    print(f"El Pokémon {name} ha sido agregado correctamente a la base de datos.")
+    print(f"The new Pokémon {name} has been added to the data based.")
 
-# Define the path to the Pokémon JSON file
+
 file_path = 'pokemons.json'
 
-# Call the add_pokemon function to add a new Pokémon
+
 add_new_pokemon(file_path)

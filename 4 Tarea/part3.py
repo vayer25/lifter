@@ -1,4 +1,4 @@
-import random  # Iesto es lo que debiamos investigar de como generar el numero random
+import random  #  numero random
 
 secret_number = random.randint(1, 10)
 
