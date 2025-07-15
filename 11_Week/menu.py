@@ -1,0 +1,10 @@
+def show_menu():
+    print("\nMain Menu:")
+    print("1. Enter student information")
+    print("2. View all student information")
+    print("3. View top 3 students by average grade")
+    print("4. View overall average grade")
+    print("5. Export data to CSV")
+    print("6. Import data from CSV")
+    print("7. View top student in each subject")
+    print("0. Exit")
