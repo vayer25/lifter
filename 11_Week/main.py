@@ -15,7 +15,7 @@ def show_menu():
 
 def main():
     manager = StudentManager()
-    # Auto-load students from CSV if exists on start (optional)
+    
     students_dicts = import_from_csv()
     manager.load_students_from_dicts(students_dicts)
 

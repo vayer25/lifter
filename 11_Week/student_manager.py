@@ -2,7 +2,7 @@ from actions import Student
 
 class StudentManager:
     def __init__(self):
-        self.students = []  # Lista de objetos Student
+        self.students = []  
 
     def get_grade(self, subject):
         while True:
